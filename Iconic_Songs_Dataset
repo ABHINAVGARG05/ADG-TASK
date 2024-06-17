@@ -96,7 +96,7 @@ accuracy = accuracy_score(y_test,y_pred)
 print(accuracy) ===> accuracy = 0.05 
 
 
-2)Doing SC from SVM
+2)Doing SVC from SVM
 svc_model = SVC()
 svc_model.fit(X_train, y_train)
 svc_y_pred = svc_model.predict(X_test)
